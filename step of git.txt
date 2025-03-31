@@ -97,6 +97,40 @@ Changes to be committed:
 (git add "file name") for adding any specific file.
 
 
+Now we see hoe to upload a project on GitHub
+
+1st open GitHub account then create repository and then copy repo link and then fire below commands
+
+**************************************************************************************************
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~/git_folder (master)
+$ git remote add origin https://github.com/Mr-Kushwaha/2nd_time_learn.git
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~/git_folder (master)
+$ git push --set-upstream origin master
+info: please complete authentication in your browser...
+
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~/git_folder (master)
+$ git push --set-upstream origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.70 KiB | 395.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Mr-Kushwaha/2nd_time_learn.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~/git_folder (master)
+$
+
+*************************************************************************************************
+
+
+And if we update any file we have to commit and push for updating on github
 
 
 
