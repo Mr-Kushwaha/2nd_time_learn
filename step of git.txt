@@ -1,0 +1,41 @@
+use git --version for checking version on git
+
+then below are some step to set up
+
+*************************************************************************
+C:\Users\ekusama>git --version
+git version 2.49.0.windows.1
+
+C:\Users\ekusama>mkdir git_folder
+
+C:\Users\ekusama>cd git_folder
+
+C:\Users\ekusama\git_folder>git init
+Initialized empty Git repository in C:/Users/ekusama/git_folder/.git/
+
+C:\Users\ekusama\git_folder>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ekusama\git_folder>ls -a
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ekusama\git_folder>dir /a
+ Volume in drive C is Windows
+ Volume Serial Number is D44F-EABD
+
+ Directory of C:\Users\ekusama\git_folder
+
+31-03-2025  18:24    <DIR>          .
+31-03-2025  18:05    <DIR>          ..
+31-03-2025  18:05    <DIR>          .git
+28-03-2025  17:24             5,235 readme.md
+               1 File(s)          5,235 bytes
+               3 Dir(s)  158,927,613,952 bytes free
+
+************************************************************************************
+
+ls command is not working in normal cmd coz it is Linux command but it works perfectly fine on git bash due coz bash contains some unix utilities.
+
+
